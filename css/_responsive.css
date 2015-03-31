@@ -1,0 +1,48 @@
+/*mobile first approach -- default in bootstrap
+    @media (min-width: @screen-sm-min) { ... }
+*/
+/*desktop first approach*/
+@media (min-width:768px) and (max-width: 992px) {
+
+    h1 {
+       font-size: 86px;
+    }
+
+    h1 .sub{
+        font-size: 0.6em;
+        font-weight: 400;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    h1 {
+       font-size: 76px;
+    }
+
+    h1 .sub{
+        font-size: 0.45em;
+        font-weight: 400;
+    }
+
+    .about-background {
+        margin-top: 75px;
+    }
+
+    .about-wrapper .about h3 {
+        font-size: 2.2em;
+    }
+
+    .about-wrapper .about:first-child h3 {
+        color: #49aabc;
+    }
+
+    .about-wrapper .about .photo-wrapper {
+        padding: 20px 0;
+    }
+
+    .contact-us .contact-form {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,32 @@
+.candy {
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    z-index: 9;
+    position: absolute;
+    text-align: center;
+    transition: all 1.5s ease-out;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.candy.candy-1 {
+    background-image: url(../img/candy/purple_moon.png);
+}
+
+.candy.candy-2 {
+    background-image: url(../img/candy/blue_wave.png);
+}
+
+.candy.candy-3 {
+    background-image: url(../img/candy/purple_circle_2.png);
+}
+
+.candy.candy-4 {
+    background-image: url(../img/candy/blue_ring.png);
+}
+
+.candy.candy-5 {
+    background-image: url(../img/candy/purple_x.png);
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/SourceSansPro-Light.ttf') format('truetype');
+}
+
+h1,h2,h3,h4 {
+    text-transform: uppercase;
+}

@@ -1,0 +1,138 @@
+.navbar {
+    background: #ffffff;
+    z-index: 2;
+}
+.navbar-brand {
+    padding: 0px;
+}
+
+.navbar-brand img {
+    height: 100%;
+    width: auto;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #2e2c30;
+    width: 32px;
+    height: 4px;
+}
+
+.navbar-collapse .navbar-nav {
+    width: 100%;
+    position: relative;
+}
+
+.navbar-collapse .navbar-nav a { 
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.header {
+    margin-top: 90px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 100px;
+}
+
+h1 .main, h1 .sub {
+    display: block;
+    margin-top: -15px;
+}
+
+h1 .sub{
+    font-weight: 200;
+    font-size: 0.7em;
+    letter-spacing: -1px;
+}
+
+.header-title .header-description {
+    margin-top: 40px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.navbar .brick-btns {
+    padding-top: 31px;
+}
+
+.navbar .brick-btns .brick-btn{
+    float: right;
+    margin-left: 5px;
+    border: 2px solid #2e2c30;
+    border-radius: 4px;
+    font-weight: bold;
+    height: 26px;
+    width: 26px;
+    line-height: 24px;
+    padding: 0px;
+    background: #FFF;
+    display: block;
+    text-align: center;
+    font-size: 1.4rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar .brick-btns .brick-btn .fa {
+    font-size: 2.0rem;
+    margin-top: 3px;
+}
+
+.navbar .brick-btns .brick-btn .dropdown-toggle{
+    border: 0px;
+    background: transparent;
+    padding: 0px;
+}
+
+.navbar .brick-btns .brick-btn:hover{
+    background: #2e2c30;
+    color: #FFFFFF;
+    border-radius: 0px;
+}
+
+.navbar .brick-btns .brick-btn.open{
+    background: #2e2c30;
+    color: #FFFFFF;
+    border-radius: 0px;
+}
+
+.navbar-nav li a {
+    padding-top: 25px;
+}
+.navbar-nav li a:before {
+    content: '';
+    width: 0%;
+    margin-bottom: 5px;
+    height: 4px;
+    display: block;
+    border-radius: 3px;
+    background: #FFFFFF;
+}
+
+.navbar-nav li a:hover:before, .navbar-nav li.active a:before {
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    background: linear-gradient(to right, #45b5b9, #895198);
+}
+
+.navbar.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    height: 70px;
+    min-height: 70px;
+    transition: all 0.5s ease-in-out;
+}
+.navbar.affix .navbar-nav li a {
+    transition: padding .5s ease-in-out;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar.affix .navbar-brand {
+    transition: height .5s ease-in-out;
+    height: 60px;
+    margin: 5px 0px;
+}

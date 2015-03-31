@@ -1,0 +1,44 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.btn {
+    text-transform: uppercase;
+}
+
+.inverse {
+    display: inline-block;
+    background: #2e2c30;
+    padding: 0px 5px;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.no-list {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.clipper {
+    position: relative;
+    overflow: hidden;
+}
+
+.row div {
+    transition: width .3s ease,margin .3s ease;
+}
+
+.img-margin-20 {
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.btn.btn-default {
+    transition: all .4s ease-in-out;
+}
+
+.btn.btn-default:hover {
+    color: #FFFFFF;
+    background: #41b8c2;
+}
